@@ -7,6 +7,7 @@ var Guide = React.createClass({
   render: function() {
     return <div className={css.Guide}>
       <h1>Guide</h1>
+      <p1>tjghj</p1>
     </div>
   }
 });
