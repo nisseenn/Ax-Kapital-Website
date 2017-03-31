@@ -1,0 +1,6 @@
+:local(.Guide){
+
+}
+:local(.Guide > h1){
+  font-size: 4rem;
+}

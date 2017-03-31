@@ -1,0 +1,6 @@
+:local(.Partners){
+
+}
+:local(.Partners > h1){
+  font-size: 4rem;
+}

@@ -1,0 +1,10 @@
+:local(.About){
+  display: block;
+  background: #FFF;
+  text-align: center;
+  padding: 5rem 0;
+}
+:local(.About > h1){
+  font-size: 4rem;
+  padding: 2rem 1rem;
+}

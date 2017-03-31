@@ -1,0 +1,6 @@
+:local(.Footer){
+
+}
+:local(.Footer > h1){
+  font-size: 4rem;
+}

@@ -1,0 +1,6 @@
+:local(.Submit){
+
+}
+:local(.Submit > h1){
+  font-size: 4rem;
+}

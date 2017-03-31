@@ -1,0 +1,6 @@
+:local(.Investments){
+
+}
+:local(.Investments > h1){
+  font-size: 4rem;
+}
