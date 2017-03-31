@@ -6,11 +6,10 @@ const css = require('./css/Guide.css')
 var Guide = React.createClass({
   render: function() {
     return <div className={css.Guide}>
-      Guide
+      <h1>Guide</h1>
     </div>
   }
 });
 
 
 module.exports = Guide;
-

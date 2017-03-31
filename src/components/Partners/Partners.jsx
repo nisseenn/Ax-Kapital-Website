@@ -6,11 +6,10 @@ const css = require('./css/Partners.css')
 var Partners = React.createClass({
   render: function() {
     return <div className={css.Partners}>
-      Partners
+      <h1>Partners</h1>
     </div>
   }
 });
 
 
 module.exports = Partners;
-

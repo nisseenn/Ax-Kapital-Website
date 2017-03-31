@@ -6,11 +6,10 @@ const css = require('./css/Investments.css')
 var Investments = React.createClass({
   render: function() {
     return <div className={css.Investments}>
-      Investments
+      <h1>Investments</h1>
     </div>
   }
 });
 
 
 module.exports = Investments;
-

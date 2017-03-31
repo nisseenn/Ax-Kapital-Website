@@ -6,11 +6,10 @@ const css = require('./css/Submit.css')
 var Submit = React.createClass({
   render: function() {
     return <div className={css.Submit}>
-      Submit
+      <h1>Submit</h1>
     </div>
   }
 });
 
 
 module.exports = Submit;
-

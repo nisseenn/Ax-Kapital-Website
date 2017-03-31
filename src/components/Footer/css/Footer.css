@@ -1,5 +1,8 @@
 :local(.Footer){
-
+  text-align: center;
+  padding: 1rem 0;
+  background: #5AF;
+  color: white;
 }
 :local(.Footer > h1){
   font-size: 4rem;

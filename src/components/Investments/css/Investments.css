@@ -1,5 +1,7 @@
 :local(.Investments){
-
+  background: #FFF;
+  text-align: center;
+  padding: 5rem 0;
 }
 :local(.Investments > h1){
   font-size: 4rem;
