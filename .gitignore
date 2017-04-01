@@ -3,9 +3,6 @@ logs
 *.log
 npm-debug.log*
 
-# client.min.js
-wwwroot/client.min.js
-
 # Runtime data
 pids
 *.pid
