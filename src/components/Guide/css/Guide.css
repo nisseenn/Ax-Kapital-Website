@@ -3,71 +3,38 @@
   background-size: cover;
   min-height: 70vh;
   background-color: #fff;
-  padding: 7em 0 8.25em 0 ;
-  margin-bottom: -6.5em;
-  height: 500px;
-  padding-right:15px;
-  padding-left:15px;
-  margin-right:auto;
-  margin-left:auto;
-  box-sizing: border-box;
+  padding: 3em 0 3em 0;
 }
 :local(.Guide > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
 }
-
-:local(.Guide > div div){
-  font-size: 1.5rem;
-  padding: 1rem 1rem;
-  text-transform: uppercase;
-  z-index: 225;
-    width: 300px;
-    background-color: transparent;
-    position: relative;
-    margin-right: -10000px;
-    left: 100px;
-    overflow: hidden;
-    display: inline;
-    float: left;
+:local(.Guide > .smallLine){
+  display: inline-block;
+  width: 45px;
+  height: 5px;
+  background: #AAA;
+  margin-bottom: 10px;
 }
-
-
-/*
-:local(.Guide > div){
-  margin-right:-15px;
-  margin-left:-15px;
-  box-sizing: border-box;
-  display: block;
+:local(.Guide > .step){
+  display: inline-block;
+  margin: 20px;
+  height: 18em;
+  width: 16em;
   text-align: center;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-
 }
-
-:local(.Guide > div div){
-  width: 33.33333333%;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  float: left;
-  box-sizing: border-box;
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
+:local(.Guide > .step > .icon){
+  display: inline-block;
+  height: 12em;
+  width: 12em;
+  background-size: 100% 100%;
+  margin: 0.6em;
+  border-radius: 6em;
 }
-
-:local(.Guide > div div div){
-  text-align: center;
-  box-sizing: border-box;
-  display: block;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
+:local(.Guide > .step > h2){
+  padding: 0.5em 0;
 }
-*/
+:local(.Guide > .step > p){
+  font-size: 0.8em;
+}
