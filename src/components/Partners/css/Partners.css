@@ -2,13 +2,16 @@
   text-align: center;
   background-size: cover;
   min-height: 70vh;
-  background-color: #FFF;
-  padding: 7em 0 8.25em 0 ;
-  margin-bottom: -6.5em;
-  height: 500px;
+  color: white;
+  padding: 2em 0 8.25em 0 ;
+	margin-bottom: -6.5em;
 }
 :local(.Partners > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
+  text-align: center;
+}
+:local(.Partners > div.logos){
+
 }

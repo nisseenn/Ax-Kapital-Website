@@ -8,7 +8,7 @@ var Guide = React.createClass({
     return <div className={css.Guide}>
       <h1>Slik er prosessen</h1>
         <div class="step1">
-          
+
         </div>
     </div>
   }
