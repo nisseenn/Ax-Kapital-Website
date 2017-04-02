@@ -1,7 +1,6 @@
 :local(.Guide){
   text-align: center;
   background-size: cover;
-  min-height: 70vh;
   background-color: #fff;
   padding: 3em 0 3em 0;
 }

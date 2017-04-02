@@ -6,7 +6,7 @@ const css = require('./css/Footer.css')
 var Footer = React.createClass({
   render: function() {
     return <div className={css.Footer}>
-      
+
     </div>
   }
 });

@@ -1,8 +1,24 @@
 :local(.Investments){
-  background: #FFF;
   text-align: center;
-  padding: 5rem 0;
+  background-size: cover;
+  background-color: #FFF;
+  padding: 1em 0 0.5em 0 ;
 }
 :local(.Investments > h1){
-  font-size: 4rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+}
+:local(.Investments > .container){
+  margin: 20px;
+  height: 10em;
+  width: 10em;
+  text-align: center;
+}
+:local(.Investments > .container > .amountInvested){
+  font-size: 3rem;
+  padding: 2rem 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
 }
