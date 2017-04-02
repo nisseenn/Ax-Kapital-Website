@@ -30,7 +30,13 @@
   width: 12em;
   background-size: 100% 100%;
   margin: 0.6em;
-  border-radius: 6em;
+  border-radius: 10em;
+  -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+  transition: width 0.5s, height 0.5s;
+}
+:local(.Guide > .step > .icon:hover){
+  height: 13em;
+  width: 13em;
 }
 :local(.Guide > .step > h2){
   padding: 0.5em 0;
