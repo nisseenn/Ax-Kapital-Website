@@ -9,8 +9,16 @@
   padding: 1rem 0;
   text-transform: uppercase;
 }
-:local(.Header > p){
+:local(.Header > h2){
   font-size: 1rem;
-  padding: 4rem 0;
+  padding: 1rem 0;
+  font-weight: bold;
 	text-transform: uppercase;
+}
+:local(.Header > p){
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  max-width: 500px;
+  display: inline-block;
+  line-height: 1.1rem;
 }

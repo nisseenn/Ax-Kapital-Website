@@ -10,7 +10,7 @@ var Header = React.createClass({
     return <Parallax bgImage={bgImage} strength={400}>
       <div className={css.Header}>
         <h1>Engleinvestor</h1>
-        <p> Engleinvestor er en....</p>
+        <h2>Der de gode selskapene møter kompetent kapital </h2>
       </div>
     </Parallax>
   }

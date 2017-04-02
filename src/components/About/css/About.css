@@ -3,6 +3,7 @@
   background-size: cover;
   background-color: #EAF4FF;
   padding: 7em 0 8.25em 0 ;
+  position: relative;
 }
 :local(.About > h1){
   font-size: 1.5rem;
@@ -11,6 +12,14 @@
 
 }
 :local(.About > p){
-  padding: 2rem 1rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  max-width: 900px;
+  display: inline-block;
+  line-height: 1.3rem;
+}
+:local(.About > img){
+  height: 250px;
+  width: auto;
+  border-radius: 40%;
 }

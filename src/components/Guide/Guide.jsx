@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 const css = require('./css/Guide.css')
 
-import HappyCustomer from './img/happy_customer.png'
+import HappyCustomer from './img/form.png'
 
 var Guide = React.createClass({
   render: function() {
