@@ -10,9 +10,10 @@
   border: none;
   background: #fff;
   display: block;
-  height: 50px;
+  height: 40px;
   outline: none;
   width: 316px;
+  max-width: calc(100% - 2rem);
   margin: 1px auto;
   font-size: calc(16px + 0.3rem);
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -21,8 +22,8 @@
 :local(.stack button) {
   font-size: calc(16px + 0.3rem);
   padding: 0.5rem 1rem 0.5rem 1rem;
-  height: 50px;
-  width: 316px;
+  height: 60px;
+  width: 100%;
   margin: 0px;
   background-color: #55E57B;
   box-shadow: 0 6px #2d7941;
