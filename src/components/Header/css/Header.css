@@ -1,11 +1,36 @@
 :local(.Header){
   text-align: center;
-  background-image: url('../img/bg.jpg');
   background-size: cover;
   min-height: 70vh;
   color: white;
+  padding: 7em 0 8.25em 0 ;
+	background-color: #2e3141;
+  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../img/bg.jpg");
+	background-size: auto, cover;
+	background-position: center, center;
+	margin-bottom: -6.5em;
+  background-repeat: no-repeat;
+  height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
+
+
+*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 :local(.Header > h1){
   font-size: 4rem;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+:local(.Header > p){
+  font-size: 1rem;
   padding: 4rem 0;
+
+			text-transform: uppercase;
 }
