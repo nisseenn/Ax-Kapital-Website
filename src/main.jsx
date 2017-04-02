@@ -19,6 +19,7 @@ render(
     <Guide />
     <Submit />
     <Partners />
+    <Investments />
     <Team />
     <Footer />
   </div>,

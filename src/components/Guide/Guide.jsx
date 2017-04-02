@@ -9,7 +9,7 @@ var Guide = React.createClass({
   render: function() {
     return <div className={css.Guide}>
       <h1>Slik er prosessen</h1>
-      <div className={css.smallLine} /><br />
+      <div className={css.smallLine}></div><br />
         <div className={css.step}>
           <img className={css.icon} src={HappyCustomer} />
           <h2>Lorem</h2>

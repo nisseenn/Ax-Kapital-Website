@@ -1,16 +1,9 @@
 :local(.Header){
   text-align: center;
   background-size: cover;
-  min-height: 70vh;
   color: white;
   padding: 7em 0 8.25em 0 ;
-	margin-bottom: -6.5em;
 }
-*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
 :local(.Header > h1){
   font-size: 4rem;
   padding: 1rem 0;

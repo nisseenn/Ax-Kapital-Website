@@ -1,7 +1,6 @@
 :local(.Partners){
   text-align: center;
   background-size: cover;
-  min-height: 70vh;
   color: white;
   padding: 2em 0 8.25em 0 ;
 	margin-bottom: -6.5em;
@@ -12,6 +11,17 @@
   text-transform: uppercase;
   text-align: center;
 }
-:local(.Partners > div.logos){
-
+:local(.Partners > .logos > .pictures){
+  display: inline-block;
+  height: 12em;
+  width: 12em;
+  background-size: 100% 100%;
+  margin: 0.6em;
+  border-radius: 10em;
+  -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+  transition: width 0.5s, height 0.5s;
+}
+:local(.Partners > .logos > .pictures:hover){
+  height: 12.3em;
+  width: 12.3em;
 }

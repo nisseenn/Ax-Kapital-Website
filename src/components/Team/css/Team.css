@@ -1,14 +1,33 @@
 :local(.Team){
   text-align: center;
   background-size: cover;
-  min-height: 70vh;
   background-color: #EAF4FF;
-  padding: 2em 0 8.25em 0 ;
-  margin-bottom: -6.5em;
-  height: 500px;
+  padding: 2em 0 2em 0 ;
 }
 :local(.Team > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
+}
+:local(.Team p){
+  font-size: 0.7rem;
+  padding: 0.7rem 0.7rem;
+
+}
+:local(.Team > .pictures){
+  display: inline-block;
+  margin: 20px;
+  height: 18em;
+  width: 16em;
+  text-align: center;
+}
+:local(.picture1),:local(.picture2),:local(.picture3){
+  display: inline-block;
+  height: 10em;
+  width: 10em;
+  background-size: 100% 100%;
+  margin: 0.6em;
+  border-radius: 10em;
+  -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+  transition: width 0.5s, height 0.5s;
 }
