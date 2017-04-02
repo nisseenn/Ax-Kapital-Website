@@ -10,7 +10,8 @@ var Submit = React.createClass({
   getInitialState: function(){
     return {
       name: "",
-      email: ""
+      email: "",
+      finish: false
     }
   },
   handleChange: function(index, value){
@@ -21,8 +22,6 @@ var Submit = React.createClass({
       case 1:
         this.setState({email: value});
         break;
-      default:
-
     }
   },
   handleSubmit: function(){
@@ -30,14 +29,15 @@ var Submit = React.createClass({
       .post('/signup')
       .send({ name: this.state.name, email: this.state.email })
       .set('Accept', 'application/json')
-      .end(function(err, res){
+      .end((function(err, res){
         console.log(res);
-      });
+        this.setState({finish: true});
+      }).bind(this));
   },
   render: function() {
-    return <div className={css.Submit}>
+    var currentContent = <span>
       <h1>Meld interesse</h1>
-      <p>Ved å søke her medlder du interesse</p>
+      <p>Registrer deg her hvis du som investor vil lære mer. Vi kommer til å sende deg mail med mer informasjon</p>
       <FiksyForm
         skeleton={["name", "email"]}
         bindings={[this.state.name, this.state.email]}
@@ -46,6 +46,15 @@ var Submit = React.createClass({
         onChange={this.handleChange}
         submitLabel="Send"
       />
+    </span>
+    if (this.state.finish) {
+      currentContent = <span>
+        <h1 className={css.finish}>Interesse meldt</h1>
+        <p>Vi syns det er spennende at du melder interesse! Vi vil sende deg en mail med mer informasjon</p>
+      </span>
+    }
+    return <div className={css.Submit}>
+      {currentContent}
     </div>
   }
 });
