@@ -1,9 +1,10 @@
 :local(.Footer){
   text-align: center;
-  padding: 1rem 0;
-  background: #5AF;
+  padding: 0.5rem 0;
+  background: #C7CCD9;
   color: white;
 }
-:local(.Footer > h1){
-  font-size: 4rem;
+:local(.Footer > p){
+  font-size: 0.7rem;
+  color: #4B4F59;
 }

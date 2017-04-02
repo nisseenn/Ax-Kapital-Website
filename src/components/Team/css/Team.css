@@ -1,7 +1,7 @@
 :local(.Team){
   text-align: center;
   background-size: cover;
-  background-color: #EAF4FF;
+  background-color: #FFF;
   padding: 2em 0 2em 0 ;
 }
 :local(.Team > h1){
