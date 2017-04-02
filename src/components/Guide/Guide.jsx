@@ -11,17 +11,17 @@ var Guide = React.createClass({
       <h1>Slik er prosessen</h1>
       <div className={css.smallLine} /><br />
         <div className={css.step}>
-          <div className={css.icon} style={{ backgroundImage: "url(" + HappyCustomer + ")" }} />
+          <img className={css.icon} src={HappyCustomer} />
           <h2>Lorem</h2>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div className={css.step}>
-          <div className={css.icon} style={{ backgroundImage: "url(" + HappyCustomer + ")" }} />
+          <img className={css.icon} src={HappyCustomer} />
           <h2>Ipsum</h2>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div className={css.step}>
-          <div className={css.icon} style={{ backgroundImage: "url(" + HappyCustomer + ")" }} />
+          <img className={css.icon} src={HappyCustomer} />
           <h2>Sit</h2>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
