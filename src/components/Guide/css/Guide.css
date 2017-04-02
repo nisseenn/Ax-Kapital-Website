@@ -39,7 +39,10 @@
 }
 :local(.Guide > .step > h2){
   padding: 0.5em 0;
+  text-transform: uppercase;
+
 }
 :local(.Guide > .step > p){
   font-size: 0.8em;
+  line-height: 1rem;
 }
