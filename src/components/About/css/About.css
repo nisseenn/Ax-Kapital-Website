@@ -1,9 +1,19 @@
 :local(.About){
-  background: #FFF;
   text-align: center;
-  padding: 5rem 0;
+  background-size: cover;
+  min-height: 70vh;
+  background-color: #EAF4FF;
+  padding: 7em 0 8.25em 0 ;
+  margin-bottom: -6.5em;
+  height: 500px;
 }
 :local(.About > h1){
-  font-size: 4rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+
+}
+:local(.About > p){
   padding: 2rem 1rem;
+  font-size: 0.7rem;
 }

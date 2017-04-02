@@ -18,7 +18,6 @@ render(
     <About />
     <Guide />
     <Submit />
-    <Investments />
     <Partners />
     <Team />
     <Footer />
