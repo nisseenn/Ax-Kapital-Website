@@ -1,11 +1,7 @@
 :local(.Submit){
   text-align: center;
-  background-size: cover;
-  min-height: 70vh;
   background-color: #EAF4FF;
-  padding: 7em 0 8.25em 0 ;
-  margin-bottom: -6.5em;
-  height: 500px;
+  padding: 2em 3em;
 }
 :local(.Submit > h1){
   font-size: 1.5rem;
@@ -13,6 +9,6 @@
   text-transform: uppercase;
 }
 :local(.Submit > p){
-  padding: 2rem 1rem;
   font-size: 0.7rem;
+  margin-bottom: 30px;
 }
