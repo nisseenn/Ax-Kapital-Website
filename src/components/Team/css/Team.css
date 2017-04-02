@@ -3,10 +3,12 @@
   background-size: cover;
   min-height: 70vh;
   background-color: #EAF4FF;
-  padding: 7em 0 8.25em 0 ;
+  padding: 2em 0 8.25em 0 ;
   margin-bottom: -6.5em;
   height: 500px;
 }
 :local(.Team > h1){
-  font-size: 4rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
 }
