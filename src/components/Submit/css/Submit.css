@@ -2,13 +2,20 @@
   text-align: center;
   background-color: #EAF4FF;
   padding: 2em 3em;
+  min-height: 20rem;
 }
-:local(.Submit > h1){
-  font-size: 1.5rem;
+:local(.Submit h1){
+  font-size: 2rem;
   padding: 1rem 1rem;
-  text-transform: uppercase;
 }
-:local(.Submit > p){
-  font-size: 0.7rem;
-  margin-bottom: 30px;
+:local(.Submit h1.finish){
+  font-size: 3rem;
+  color: #0EDE0E;
+}
+:local(.Submit p){
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  max-width: 300px;
+  line-height: 1.2rem;
 }
