@@ -1,5 +1,5 @@
 const React = require('react');
-import { connect } from 'react-redux'
+
 
 const css = require('./css/Team.css')
 import PictureOne from './img/1.png'
