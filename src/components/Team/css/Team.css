@@ -15,8 +15,7 @@
 }
 :local(.Team > .pictures){
   display: inline-block;
-  margin: 20px;
-  height: 18em;
+  margin: 1rem;
   width: 16em;
   text-align: center;
 }
