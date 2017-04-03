@@ -22,7 +22,7 @@ var Team = React.createClass({
     </div>
   <div className={css.pictures}>
     <img className={css.picture3} src={PictureThree} />
-    <h2>Obaid Saleem</h2>
+    <h2>Obaid Salem</h2>
     <p>quote of life</p>
   </div>
   </div>
