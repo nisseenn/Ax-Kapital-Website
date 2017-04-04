@@ -1,18 +1,21 @@
 const React = require('react');
 import { connect } from 'react-redux'
-
+import { Parallax } from 'react-parallax'
+import bgImage from './img/coin.jpg'
 const css = require('./css/Investments.css')
+import CountUp from 'react-countup';
 
 var Investments = React.createClass({
   render: function() {
-    return <div className={css.Investments}>
+    return <Parallax bgImage={bgImage} strength={400}>
+
+    <div className={css.Investments}>
       <h1>Invested capital so far</h1>
         <div className={css.container}>
-          <div className={css.amountInvested}>
-            120
-          </div>
-        </div>
+         <CountUp start={0} end={1000} />
+      </div>
     </div>
+    </Parallax>
   }
 });
 
