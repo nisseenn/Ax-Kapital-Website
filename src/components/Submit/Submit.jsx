@@ -1,5 +1,5 @@
 const React = require('react');
-import { connect } from 'react-redux'
+
 import request from 'superagent'
 
 import FiksyForm from '../FiksyForm/FiksyForm.jsx'

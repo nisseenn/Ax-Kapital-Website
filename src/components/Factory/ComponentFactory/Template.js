@@ -1,5 +1,5 @@
 const React = require('react');
-import { connect } from 'react-redux'
+
 
 const css = require('./css/{{ component_name }}.css')
 

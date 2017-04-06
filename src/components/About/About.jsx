@@ -1,5 +1,5 @@
 const React = require('react');
-import { connect } from 'react-redux'
+
 
 const css = require('./css/About.css')
 import coffe from "./img/coffe.png"

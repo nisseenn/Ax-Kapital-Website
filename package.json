@@ -24,7 +24,6 @@
     "react-countup": "^2.0.3",
     "react-dom": "^15.3.0",
     "react-parallax": "^1.2.6",
-    "react-redux": "^5.0.1",
     "react-router": "^3.0.0",
     "style-loader": "^0.13.1",
     "superagent": "^3.5.2",

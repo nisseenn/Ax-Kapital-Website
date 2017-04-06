@@ -1,5 +1,5 @@
 const React = require('react');
-import { connect } from 'react-redux'
+
 import { Parallax } from 'react-parallax'
 import bgImage from './img/partners1.jpg'
 import PartnerOne from './img/aksjeforum.png'
