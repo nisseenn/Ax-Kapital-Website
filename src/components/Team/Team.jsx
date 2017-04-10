@@ -14,7 +14,7 @@ var Team = React.createClass({
       <div className={css.pictures}>
         <img className={css.picture1} src={PictureOne} />
         <h2>Gleb Levin</h2>
-        <p>LinkedIn here</p>
+        <p>quote of life</p>
       </div>
     <div className={css.pictures}>
       <img className={css.picture2} src={PictureTwo} />
