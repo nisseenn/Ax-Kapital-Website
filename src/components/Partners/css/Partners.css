@@ -17,12 +17,17 @@
   height: 12em;
   width: 12em;
   background-size: 100% 100%;
-  margin: 0.6em;
+  margin: 1em;
   border-radius: 10em;
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
 }
-:local(.Partners > .logos > .pictures:hover){
-  height: 12.3em;
-  width: 12.3em;
+:local(.Partners > .logos > .pictureTwo){
+  display: inline-block;
+  height: auto;
+  width: 200px;
+  background-size: 100% 100%;
+  margin: 1em 8em;
+  -webkit-transition: width 0.5s, height 0.5s; /* Safari */
+  transition: width 0.5s, height 0.5s;
 }

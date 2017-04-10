@@ -4,8 +4,9 @@ const React = require('react');
 const css = require('./css/Guide.css')
 
 import HappyCustomer from './img/pencil.png'
-import Form from './img/form.png'
+import Form from './img/diagram.jpg'
 import Letter from './img/letter.png'
+import Diagram from './img/form.png'
 
 var Guide = React.createClass({
   render: function() {
@@ -23,7 +24,7 @@ var Guide = React.createClass({
           <p>Vi gjør en seleksjon basert på ”best practice” og forhåndsbestemte kriterier.</p>
         </div>
         <div className={css.step}>
-          <img className={css.icon} src={Letter} />
+          <img className={css.icon} src={Diagram} />
           <h2>Steg 3</h2>
           <p>Selskapene må gjennom relevante obligatoriske kurs.</p>
         </div>

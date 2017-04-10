@@ -3,7 +3,8 @@ const React = require('react');
 import { Parallax } from 'react-parallax'
 import bgImage from './img/partners1.jpg'
 import PartnerOne from './img/aksjeforum.png'
-//import PartnerTwo from './img/grunder.jpg'
+import PartnerTwo from './img/grunderG.png'
+import PartnerThree from './img/seedforum.png'
 const css = require('./css/Partners.css')
 
 var Partners = React.createClass({
@@ -13,6 +14,8 @@ var Partners = React.createClass({
         <h1>Våre partnere</h1>
           <div className={css.logos}>
             <img className={css.pictures} src={PartnerOne} />
+            <img className={css.pictureTwo} src={PartnerTwo} />
+            <img className={css.pictureThree} src={PartnerThree} />
           </div>
       </div>
     </Parallax>
