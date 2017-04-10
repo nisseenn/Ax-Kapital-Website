@@ -22,7 +22,7 @@
   display: inline-block;
   line-height: 1.1rem;
 }
-:local(.Header > .readMore){
+:local(.Header > .readOne > .readMore){
   display: inline-block;
   width: 140px;
   padding: 0.5rem 0.5rem;
@@ -34,13 +34,13 @@
   border-radius: 5px;
   font-family: "MontserratRegular";
 }
-:local(.Header > .readMore:hover){
+:local(.Header > .readOne > .readMore:hover){
 border-color: #fff; /* fallback */
 background-color: #fff;
 color: black;
 cursor: pointer;
 }
-:local(.Header > .contactUs){
+:local(.Header > .readTwo > .contactUs){
   display: inline-block;
   width: 140px;
   padding: 0.5rem 0.5rem;
@@ -52,7 +52,7 @@ cursor: pointer;
   border-radius: 5px;
   font-family: "MontserratRegular";
 }
-:local(.Header > .contactUs:hover){
+:local(.Header > .readTwo > .contactUs:hover){
 border-color: #fff; /* fallback */
 background-color: #fff;
 color: black;
