@@ -2,20 +2,74 @@
   text-align: center;
   background-size: cover;
   color: white;
-  padding: 1em 0 6em 0 ;
+  padding: 2em 0 3em 0 ;
 }
 :local(.Investments > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
 }
-
-:local(.Investments > .content > span.CountUp){
-  font-size: 3rem;
-  padding: 2rem 2rem;
+:local(.Investments > p){
+  font-size: 2rem;
+  padding: 0rem 0.3rem ;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+}
+.countUp{
+  font-size: 4rem;
   text-transform: uppercase;
   text-align: center;
+  margin: 0.2em 0 0 0;
   display: inline-block;
-  height: 12px;
-  width: 12px;
 }
+/* TEXT ANIMATION EFFECT, NOT YET ADDED, BUT FOR FUTURE EXPERIMENTING
+@keyframes BackgroundAnimated {
+    from {
+        background-position:0 0
+    }
+    to {
+        background-position:100% 0
+    }
+}
+    @-webkit-keyframes BackgroundAnimated {
+    from {
+        background-position:0 0
+    }
+    to {
+        background-position:100% 0
+    }
+}
+    @-ms-keyframes BackgroundAnimated {<     from {
+        background-position:0 0
+    }
+    to {
+        background-position:100% 0
+    }
+}
+    @-moz-keyframes BackgroundAnimated {
+    from {
+        background-position:0 0
+    }
+    to {
+        background-position:100% 0
+    }
+}
+.insideHere{
+font-family:'Luckiest Guy';
+background:url('../img/cloud.jpg');
+background-repeat:repeat-x;
+background-position:0 0;
+color:transparent;
+-webkit-font-smoothing:antialiased;
+-webkit-background-clip:text;
+-moz-background-clip:text;
+background-clip:text;
+-webkit-text-fill-color:transparent;
+-webkit-animation:BackgroundAnimated 25 linear infinite;
+-moz-animation:BackgroundAnimated 25s linear infinite;
+-ms-animation:BackgroundAnimated 25s linear infinite;
+-o-animation:BackgroundAnimated 25s linear infinite;
+animation:BackgroundAnimated 25s linear infinite;
+}
+*/

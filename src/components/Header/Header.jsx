@@ -11,6 +11,8 @@ var Header = React.createClass({
       <div className={css.Header}>
         <h1>Engleinvestor</h1>
         <h2>Der de gode selskapene møter kompetent kapital </h2>
+        <button className={css.readMore} />
+        <button className={css.contactUs} />
       </div>
     </Parallax>
   }

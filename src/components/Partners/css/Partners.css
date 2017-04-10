@@ -10,6 +10,7 @@
   padding: 1rem 1rem;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 :local(.Partners > .logos > .pictures){
   display: inline-block;

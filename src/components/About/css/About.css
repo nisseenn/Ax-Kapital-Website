@@ -1,30 +1,23 @@
 :local(.About){
-  text-align: left;
+  text-align: center;
   background-size: cover;
   background-color: #EAF4FF;
   padding: 1rem 3rem;
   position: relative;
-  min-height: 20rem;
+  min-height: 15rem;
 }
 :local(.About > h1){
   font-size: 1.5rem;
   padding: 3rem 1rem 1rem 1rem;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
 }
 :local(.About > p){
   font-size: 0.9rem;
-  padding: 1rem;
+  padding: 1rem 0;
   line-height: 1.3rem;
   max-width: 700px;
-}
-:local(.About > img){
-  position: absolute;
-    top: 40px;
-    right: 40px;
-  width: 20%;
-}
-@media screen and (max-width: 600px){
-  :local(.About > img){
-    display: none;
-  }
+  text-align: center;
+  display: inline-block;
 }

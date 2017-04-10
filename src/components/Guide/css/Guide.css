@@ -2,18 +2,19 @@
   text-align: center;
   background-size: cover;
   background-color: #fff;
-  padding: 3em 0 3em 0;
+  padding: 2.6em 0 2.6em 0;
 }
 :local(.Guide > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 :local(.Guide > .smallLine){
   display: inline-block;
   width: 45px;
   height: 5px;
-  background: #AAA;
+  background: grey;
   margin-bottom: 10px;
 }
 :local(.Guide > .step){
@@ -34,8 +35,8 @@
   transition: width 0.5s, height 0.5s;
 }
 :local(.Guide > .step > .icon:hover){
-  height: 13em;
-  width: 13em;
+  height: 12.4em;
+  width: 12.4em;
 }
 :local(.Guide > .step > h2){
   padding: 0.5em 0;

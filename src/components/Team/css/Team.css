@@ -7,6 +7,7 @@
   font-size: 1.5rem;
   padding: 1rem 1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 :local(.Team p){
   font-size: 0.7rem;
@@ -16,10 +17,10 @@
 :local(.Team > .pictures){
   display: inline-block;
   margin: 1rem;
-  width: 16em;
+  width: 14em;
   text-align: center;
 }
-:local(.picture1),:local(.picture2),:local(.picture3){
+:local(.picture1),:local(.picture2),:local(.picture3), :local(.picture4){
   display: inline-block;
   height: 10em;
   width: 10em;
