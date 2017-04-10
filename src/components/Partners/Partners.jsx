@@ -1,7 +1,7 @@
 const React = require('react');
 
 import { Parallax } from 'react-parallax'
-import bgImage from './img/partners1.jpg'
+import bgImage from './img/hand.jpg'
 import PartnerOne from './img/aksjeforum.png'
 import PartnerTwo from './img/grunderG.png'
 import PartnerThree from './img/seedforum.png'

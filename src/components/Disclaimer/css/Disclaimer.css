@@ -1,0 +1,22 @@
+ :local(.Disclaimer){
+  text-align: center;
+  background-size: cover;
+  background-color: #fff;
+  padding: 0.2rem 0.2rem;
+  position: relative;
+}
+:local(.Disclaimer > h1){
+  font-size: 0.9rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+:local(.Disclaimer > p){
+  font-size: 0.7rem;
+  padding: 1rem 0;
+  line-height: 1.3rem;
+  max-width: 910px;
+  text-align: center;
+  display: inline-block;
+}

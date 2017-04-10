@@ -8,6 +8,7 @@ import Submit from './components/Submit/Submit.jsx'
 import Investments from './components/Investments/Investments.jsx'
 import Partners from './components/Partners/Partners.jsx'
 import Team from './components/Team/Team.jsx'
+import Disclaimer from './components/Disclaimer/Disclaimer.jsx'
 import Footer from './components/Footer/Footer.jsx'
 
 import css from './app.css'
@@ -21,6 +22,7 @@ render(
     <Submit />
     <Partners />
     <Team />
+    <Disclaimer />
     <Footer />
   </div>,
   document.getElementById('react-view')
