@@ -57,7 +57,7 @@ var Submit = React.createClass({
         <p>Vi syns det er spennende at du melder interesse! Vi vil sende deg en mail med mer informasjon</p>
       </span>
     }
-    return <div className={css.Submit}>
+    return <div className={css.Submit} id="submit">
       {currentContent}
     </div>
   }

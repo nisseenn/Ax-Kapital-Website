@@ -16,7 +16,7 @@ var Header = React.createClass({
         <h1>Engleinvestor</h1>
         <h2>Der de gode selskapene møter nødvendig kapital </h2>
           <button className={css.readMore} value="#about" onClick={this.scroll}>Les mer</button>
-          <button className={css.contactUs} value="#team" onClick={this.scroll}>Kontakt oss</button>
+          <button className={css.contactUs} value="#submit" onClick={this.scroll}>Kontakt oss</button>
       </div>
 
     </Parallax>

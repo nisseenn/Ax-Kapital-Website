@@ -5,33 +5,48 @@ import PictureOne from './img/1.png'
 import PictureTwo from './img/2.png'
 import PictureThree from './img/3.png'
 import PictureFour from './img/4.jpg'
+import LinkedInPhoto from './img/linkd.png'
 
 var Team = React.createClass({
-  toSite: function() {
+  toGleb: function() {
       window.open('https://www.linkedin.com/in/gleblevin/');
     },
+  toBerg: function() {
+      window.open('https://www.linkedin.com/in/bergmoe/');
+    },
+  toNico: function() {
+      window.open('https://www.linkedin.com/in/nicolaitorgersen/');
+    },
+  toObaid: function() {
+      window.open('');
+    },
+
   render: function() {
     return <div className={css.Team} id="team">
       <h1>Teamet</h1>
       <div className={css.pictures}>
         <img className={css.picture1} src={PictureOne} />
         <h2>Gleb Levin</h2>
-        <button onClick={this.toSite}>LinkedInLogo</button>
+        <a onClick={this.toGleb}>
+        <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
       </div>
     <div className={css.pictures}>
       <img className={css.picture2} src={PictureTwo} />
       <h2>Berg Moe</h2>
-      <button>Linkdinlogo</button>
+      <a onClick={this.toBerg}>
+      <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
     </div>
   <div className={css.pictures}>
     <img className={css.picture3} src={PictureThree} />
     <h2>Obaid Salem</h2>
-    <a>LinkedIn logo here</a>
+    <a onClick={this.toObaid}>
+    <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
   </div>
   <div className={css.pictures}>
     <img className={css.picture4} src={PictureFour} />
     <h2>Nicolai Thorgersen</h2>
-    <a>LinkedIn logo here</a>
+    <a onClick={this.toNico}>
+    <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
   </div>
   </div>
   }
