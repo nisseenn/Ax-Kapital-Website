@@ -11,12 +11,12 @@ var Team = React.createClass({
       window.open('https://www.linkedin.com/in/gleblevin/');
     },
   render: function() {
-    return <div className={css.Team}>
+    return <div className={css.Team} id="team">
       <h1>Teamet</h1>
       <div className={css.pictures}>
         <img className={css.picture1} src={PictureOne} />
         <h2>Gleb Levin</h2>
-        <button onclick={this.toSite}>LinkedInLogo</button>
+        <button onClick={this.toSite}>LinkedInLogo</button>
       </div>
     <div className={css.pictures}>
       <img className={css.picture2} src={PictureTwo} />
