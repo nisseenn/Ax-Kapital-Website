@@ -20,9 +20,10 @@
 :local(.Guide > .step){
   display: inline-block;
   margin: 20px;
-  height: 18em;
-  width: 16em;
+  height: 20em;
+  width: 14em;
   text-align: center;
+  overflow: hidden;
 }
 :local(.Guide > .step > .icon){
   display: inline-block;
@@ -46,4 +47,5 @@
 :local(.Guide > .step > p){
   font-size: 0.8em;
   line-height: 1rem;
+  min-height: 3rem;
 }
