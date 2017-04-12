@@ -1,6 +1,5 @@
 const React = require('react');
 
-import { connect } from 'react-redux'
 import { Parallax } from 'react-parallax'
 import bgImage from './img/coin2.jpg'
 import CountUp from 'react-countup';
