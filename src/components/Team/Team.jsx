@@ -18,7 +18,7 @@ var Team = React.createClass({
       window.open('https://www.linkedin.com/in/nicolaitorgersen/');
     },
   toObaid: function() {
-      window.open('');
+      window.open('https://www.linkedin.com/in/obaid-saleem-78735986/');
     },
 
   render: function() {
