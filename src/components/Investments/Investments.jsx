@@ -11,9 +11,9 @@ var Investments = React.createClass({
   render: function() {
     return <Parallax bgImage={bgImage} strength={300}>
     <div className={css.Investments}>
-      <h1>Invested capital so far</h1>
+      <h1>Kapital investert så langt</h1>
         <span className="countUp">
-          <CountUp start={0} end={1000} duration={2.75} useEasing={true} />
+          <CountUp start={0} end={0} duration={5} useEasing={true} />
         </span>
         <p>kr</p>
     </div>
