@@ -20,6 +20,8 @@
     "react": "^15.3.0",
     "react-countup": "^2.0.3",
     "react-dom": "^15.3.0",
+    "react-dropdown": "^1.2.3",
+    "react-favicon": "0.0.7",
     "react-parallax": "^1.2.6",
     "react-router": "^4.0.0",
     "react-scroll": "^1.4.8",

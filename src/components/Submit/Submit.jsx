@@ -1,15 +1,16 @@
 const React = require('react');
-
 import request from 'superagent'
-
+import Dropdown from 'react-dropdown'
 import FiksyForm from '../FiksyForm/FiksyForm.jsx'
 
 const css = require('./css/Submit.css')
-
+const options = [
+  'Investor', 'Grunder'
+];
+const defaultOption = options[0]
 var Submit = React.createClass({
   getInitialState: function(){
     return {
-      choice: "",
       name: "",
       email: "",
       finish: false
@@ -18,12 +19,9 @@ var Submit = React.createClass({
   handleChange: function(index, value){
     switch (index) {
       case 0:
-        this.setState({choice: value});
-        break;
-      case 1:
         this.setState({name: value});
         break;
-      case 2:
+      case 1:
         this.setState({email: value});
         break;
     }
@@ -31,7 +29,7 @@ var Submit = React.createClass({
   handleSubmit: function(){
     request
       .post('/signup')
-      .send({ choice: this.state.choice, name: this.state.name, email: this.state.email })
+      .send({name: this.state.name, email: this.state.email })
       .set('Accept', 'application/json')
       .end((function(err, res){
         console.log(res);
@@ -42,10 +40,14 @@ var Submit = React.createClass({
     var currentContent = <span>
       <h1>Meld interesse</h1>
       <p>Enten du er kapitalsøkende eller investor er det helt kostnadsfritt og uforpliktende å registrere seg. Vi sender mer informasjon på e-mail etter registrering.</p>
+      <br />
+      <div className={css.dropdown}>
+      <Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />
+    </div>
       <FiksyForm
-        skeleton={["choice", "name", "email"]}
-        bindings={[this.state.choice, this.state.name, this.state.email]}
-        placeholders={["Investor/Selskap", "Ditt navn", "Din email"]}
+        skeleton={["name", "email"]}
+        bindings={[this.state.name, this.state.email]}
+        placeholders={["Ditt navn", "Din email"]}
         onSubmit={this.handleSubmit}
         onChange={this.handleChange}
         submitLabel="Send"

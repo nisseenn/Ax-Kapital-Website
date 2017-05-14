@@ -16,7 +16,7 @@ var Guide = React.createClass({
         <div className={css.step}>
           <img className={css.icon} src={HappyCustomer} />
           <h2>Steg 1</h2>
-          <p>Selskapene sender en søknad om kapital</p>
+          <p>Selskapene sender søknad om å få bruke vår online plattform.</p>
         </div>
         <div className={css.step}>
           <img className={css.icon} src={Form} />
