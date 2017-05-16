@@ -4,10 +4,7 @@ import Dropdown from 'react-dropdown'
 import FiksyForm from '../FiksyForm/FiksyForm.jsx'
 
 const css = require('./css/Submit.css')
-const options = [
-  'Investor', 'Grunder'
-];
-const defaultOption = options[0]
+
 var Submit = React.createClass({
   getInitialState: function(){
     return {
@@ -40,10 +37,7 @@ var Submit = React.createClass({
     var currentContent = <span>
       <h1>Meld interesse</h1>
       <p>Enten du er kapitalsøkende eller investor er det helt kostnadsfritt og uforpliktende å registrere seg. Vi sender mer informasjon på e-mail etter registrering.</p>
-      <br />
-      <div className={css.dropdown}>
-      <Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />
-    </div>
+
       <FiksyForm
         skeleton={["name", "email"]}
         bindings={[this.state.name, this.state.email]}

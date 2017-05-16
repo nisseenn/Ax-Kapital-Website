@@ -13,14 +13,14 @@ var Contact = React.createClass({
           <div className={css.section}>
             <h1>Spørsmål som investor</h1>
               <div className={css.smallLine}></div><br />
-            <p>Obaid.saleem@entrahost.com</p>
-            <p>983423932</p>
+            <p>obaid@entrahouse.com</p>
+            <p>+47 960 45 651</p>
           </div>
           <div className={css.section}>
             <h1>Spørsmål som GrÜnder</h1>
               <div className={css.smallLine}></div><br />
-            <p>Berg.moe@entrahost.com</p>
-            <p>983423932</p>
+            <p>info@entrahouse.com</p>
+            <p>+47 970 25 340</p>
         </div>
         <div className={css.Facebook}>
           <h1>Du kan også finne oss her</h1>
