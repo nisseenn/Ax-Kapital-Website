@@ -1,6 +1,6 @@
 const React = require('react');
 import request from 'superagent'
-import Dropdown from 'react-dropdown'
+import { Dropdown } from 'react-dropdown'
 import FiksyForm from '../FiksyForm/FiksyForm.jsx'
 
 const css = require('./css/Submit.css')
