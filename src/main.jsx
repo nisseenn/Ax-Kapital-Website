@@ -11,13 +11,10 @@ import Team from './components/Team/Team.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Disclaimer from './components/Disclaimer/Disclaimer.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import { Favicon } from 'react-favicon'
-import EngleIcon from './favicon.png'
 import css from './app.css'
 
 render(
   <div>
-    <Favicon url={[EngleIcon]}/>
     <Header />
     <About />
     <Guide />
