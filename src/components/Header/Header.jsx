@@ -11,15 +11,15 @@ var Header = React.createClass({
     jump(e.target.value);
   },
   render: function() {
-    return <Parallax bgImage={bgImage} strength={400}>
+    return <div className={css.edge}><Parallax bgImage={bgImage} strength={400}>
       <div className={css.Header}>
         <h1>Engleinvestor</h1>
         <h2>Der de gode selskapene møter nødvendig kapital </h2>
           <button className={css.readMore} value="#about" onClick={this.scroll}>Les mer</button>
           <button className={css.contactUs} value="#contact" onClick={this.scroll}>Kontakt oss</button>
       </div>
-
     </Parallax>
+  </div>
   }
 });
 

@@ -3,12 +3,17 @@
   background-size: cover;
   color: white;
   padding: 3.5em 0 9.25em 0 ;
+
+}
+:local(.edge){
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 :local(.Header > h1){
   font-size: calc(1vw + 2rem);
   padding: -0.5rem 0;
   text-transform: uppercase;
 }
+
 :local(.Header > h2){
   font-size: 1rem;
   padding: 2rem 0;

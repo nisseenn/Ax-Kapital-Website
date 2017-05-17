@@ -1,7 +1,8 @@
 :local(.Team){
   text-align: center;
   background-color: #FFF;
-  padding: 2em 0 2em 0 ;
+  padding: 2em 0 7em 0 ;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 :local(.Team > h1){
   font-size: 1.5rem;

@@ -3,6 +3,7 @@
   background-color: #EAF4FF;
   padding: 4em 5em;
   min-height: 20rem;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 :local(.Submit h1){
   font-size: 2rem;
