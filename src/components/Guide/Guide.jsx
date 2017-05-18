@@ -10,7 +10,7 @@ import Diagram from './img/form.png'
 
 var Guide = React.createClass({
   render: function() {
-    return <div className={css.Guide}>
+    return <div className={css.Guide} id="guide">
       <h1>Slik er prosessen</h1>
       <div className={css.smallLine}></div><br />
         <div className={css.step}>
