@@ -1,7 +1,7 @@
 const React = require('react');
 
 import { Parallax } from 'react-parallax'
-import bgImage from './img/bg.jpg'
+import bgImage from './img/barcode_night.jpg'
 import jump from 'jump.js'
 import About from '../About/About.jsx'
 const css = require('./css/Header.css')
