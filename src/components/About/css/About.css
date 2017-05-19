@@ -6,7 +6,6 @@
   position: relative;
   min-height: 15rem;
   overflow: visible;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 :local(.About::after){
   border-style: solid;

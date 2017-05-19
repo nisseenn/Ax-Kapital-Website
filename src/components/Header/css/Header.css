@@ -3,10 +3,6 @@
   background-size: cover;
   color: white;
   padding: 3.5em 0 9.25em 0 ;
-
-}
-:local(.edge){
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 :local(.Header > h1){
   font-size: calc(1vw + 2rem);
