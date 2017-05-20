@@ -20,7 +20,6 @@ var Team = React.createClass({
   toObaid: function() {
       window.open('https://www.linkedin.com/in/obaid-saleem-78735986/');
     },
-
   render: function() {
     return <div className={css.Team} id="team">
       <h1>Teamet</h1>

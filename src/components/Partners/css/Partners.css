@@ -22,6 +22,9 @@
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
 }
+:local(.pictures:hover),:local(.pictureTwo:hover),:local(.pictureThree:hover){
+cursor: pointer;
+}
 :local(.Partners > .logos > .pictureTwo){
   display: inline-block;
   height: auto;

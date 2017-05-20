@@ -8,14 +8,23 @@ import PartnerThree from './img/seedforum.png'
 const css = require('./css/Partners.css')
 
 var Partners = React.createClass({
+  toAksjeforum: function() {
+      window.open('https://www.facebook.com/aksjeforum/?fref=ts');
+    },
+  toGrunder: function() {
+      window.open('https://www.facebook.com/gkhoved/');
+    },
+    toSeedforum: function() {
+      window.open('http://www.seedforum.org/');
+    },
   render: function() {
     return <Parallax bgImage={bgImage} strength={400}>
       <div className={css.Partners}>
         <h1>Våre partnere</h1>
           <div className={css.logos}>
-            <img className={css.pictures} src={PartnerOne} />
-            <img className={css.pictureTwo} src={PartnerTwo} />
-            <img className={css.pictureThree} src={PartnerThree} />
+            <img onClick={this.toAksjeforum} className={css.pictures} src={PartnerOne} />
+            <img onClick={this.toGrunder} className={css.pictureTwo} src={PartnerTwo} />
+            <img onClick={this.toSeedforum} className={css.pictureThree} src={PartnerThree} />
           </div>
       </div>
     </Parallax>
