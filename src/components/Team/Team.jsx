@@ -25,25 +25,25 @@ var Team = React.createClass({
       <h1>Teamet</h1>
       <div className={css.pictures}>
         <img className={css.picture1} src={PictureOne} />
-        <h2>Gleb Levin</h2>
+        <h2>Gleb Levin</h2><br />
         <a onClick={this.toGleb}>
         <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
       </div>
     <div className={css.pictures}>
       <img className={css.picture2} src={PictureTwo} />
-      <h2>Berg Moe</h2>
+      <h2>Berg Moe</h2><br />
       <a onClick={this.toBerg}>
       <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
     </div>
   <div className={css.pictures}>
     <img className={css.picture3} src={PictureThree} />
-    <h2>Obaid Salem</h2>
+    <h2>Obaid Salem</h2><br />
     <a onClick={this.toObaid}>
     <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
   </div>
   <div className={css.pictures}>
     <img className={css.picture4} src={PictureFour} />
-    <h2>Nicolai Thorgersen</h2>
+    <h2>Nicolai Thorgersen</h2><br />
     <a onClick={this.toNico}>
     <img src={LinkedInPhoto} className={css.logoStyle} ></img></a>
   </div>

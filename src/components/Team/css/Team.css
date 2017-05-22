@@ -12,7 +12,6 @@
 :local(.Team p){
   font-size: 0.7rem;
   padding: 0.7rem 0.7rem;
-
 }
 :local(.Team > .pictures){
   display: inline-block;
@@ -29,6 +28,22 @@
   border-radius: 10em;
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
+}
+@media (max-width:500px) {
+:local(.Team > .pictures){
+  display: inline-block;
+  margin: 1rem;
+  width: 10em;
+  text-align: center;
+  }
+}
+@media (max-width:500px) {
+  :local(img.logoStyle){
+  width: 20px;
+  height: auto;
+  margin: 0 0 0 0;
+  display: inline-block;
+  }
 }
 :local(.logoStyle){
 width: 40px;

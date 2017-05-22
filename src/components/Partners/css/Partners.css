@@ -5,6 +5,7 @@
   padding: 2em 0 8.25em 0 ;
 	margin-bottom: -6.5em;
 }
+
 :local(.Partners > h1){
   font-size: 1.5rem;
   padding: 1rem 1rem;
@@ -12,6 +13,7 @@
   text-align: center;
   font-weight: bold;
 }
+
 :local(.Partners > .logos > .pictures){
   display: inline-block;
   height: 12em;
@@ -22,6 +24,7 @@
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
 }
+
 :local(.pictures:hover),:local(.pictureTwo:hover),:local(.pictureThree:hover){
 cursor: pointer;
 }
@@ -33,4 +36,16 @@ cursor: pointer;
   margin: 1em 8em;
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
+}
+@media (max-width:500px) {
+:local(.Partners > .logos > img.pictureTwo), :local(.Partners > .logos > img.pictures){
+  display: inline-block;
+  height: auto;
+  width: 150px;
+  }
+  :local(.Partners > .logos > img.pictureThree){
+    display: inline-block;
+    height: auto;
+    width: 200px;
+  }
 }

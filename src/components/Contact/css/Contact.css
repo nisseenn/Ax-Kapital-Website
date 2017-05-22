@@ -13,7 +13,7 @@
 :local(.Contact > .section){
   display: inline-block;
   margin: 2em 4em;
-  height: 10em;
+  height: auto;
   text-align: center;
   overflow: hidden;
 }
@@ -51,4 +51,13 @@ height: auto;
 margin: 1rem 0 0 0;
 display: inline-block;
 cursor: pointer;
+}
+
+@media (max-width:500px) {
+:local(.logoStyle){
+  width: 20px;
+  height: auto;
+  margin: 1rem 0 0 0;
+  display: inline-block;
+}
 }
