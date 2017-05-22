@@ -12,7 +12,6 @@ import Contact from './components/Contact/Contact.jsx'
 import Disclaimer from './components/Disclaimer/Disclaimer.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import css from './app.css'
-import Loader from 'halogen/ClipLoader'
 render(
   <div>
     <Header />
