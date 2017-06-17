@@ -1,10 +1,10 @@
 const React = require('react');
 
 import { Parallax } from 'react-parallax'
-import bgImage from './img/hand2.jpg'
+import bgImage from './img/hand3.jpg'
 import PartnerOne from './img/aksjeforum.png'
 import PartnerTwo from './img/grunderG.png'
-import PartnerThree from './img/seedforum.jpg'
+import PartnerThree from './img/seedforum.png'
 const css = require('./css/Partners.css')
 
 var Partners = React.createClass({
