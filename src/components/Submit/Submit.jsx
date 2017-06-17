@@ -1,7 +1,7 @@
 const React = require('react');
 import request from 'superagent'
 import FiksyForm from '../FiksyForm/FiksyForm.jsx'
-
+import { Dropdown } from 'semantic-ui-react'
 const css = require('./css/Submit.css')
 
 var Submit = React.createClass({
@@ -15,9 +15,12 @@ var Submit = React.createClass({
   handleChange: function(index, value){
     switch (index) {
       case 0:
-        this.setState({name: value});
+        this.setState({investor: value});
         break;
       case 1:
+        this.setState({name: value});
+        break;
+      case 2:
         this.setState({email: value});
         break;
     }
@@ -38,9 +41,9 @@ var Submit = React.createClass({
       <p>Enten du er kapitalsøkende eller investor er det helt kostnadsfritt og uforpliktende å registrere seg. Vi sender mer informasjon på e-mail etter registrering.</p>
 
       <FiksyForm
-        skeleton={["name", "email"]}
-        bindings={[this.state.name, this.state.email]}
-        placeholders={["Ditt navn", "Din email"]}
+        skeleton={["investor", "name", "email"]}
+        bindings={[this.state.investor, this.state.name, this.state.email]}
+        placeholders={["Investor/Grunder", "Ditt navn", "Din email"]}
         onSubmit={this.handleSubmit}
         onChange={this.handleChange}
         submitLabel="Send"
