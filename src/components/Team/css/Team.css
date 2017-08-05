@@ -29,6 +29,9 @@
   -webkit-transition: width 0.5s, height 0.5s; /* Safari */
   transition: width 0.5s, height 0.5s;
 }
+:local(.Team > .pictures > .picture1:hover){
+color: red;
+}
 @media (max-width:500px) {
 :local(.Team > .pictures){
   display: inline-block;

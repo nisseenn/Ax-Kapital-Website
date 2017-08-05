@@ -28,7 +28,7 @@ var Submit = React.createClass({
   handleSubmit: function(){
     request
       .post('/signup')
-      .send({name: this.state.name, email: this.state.email })
+      .send({investor: this.state.investor, name: this.state.name, email: this.state.email })
       .set('Accept', 'application/json')
       .end((function(err, res){
         console.log(res);

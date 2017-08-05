@@ -1,7 +1,7 @@
 :local(.Footer){
   text-align: center;
   padding: 0.5rem 0;
-  background: #C7CCD9;
+  background: #fff;
   color: white;
 }
 :local(.Footer > p){
