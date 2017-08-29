@@ -1,11 +1,11 @@
 {
-  "name": "engleinvestor",
+  "name": "axkapital",
   "version": "0.0.0",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack --watch"
   },
-  "author": "Magnus Drangevag",
+  "author": "Alexander Nissen",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.23.1",
