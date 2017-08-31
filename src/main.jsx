@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+import Navbar from './components/Navbar/Navbar.jsx'
 import Header from './components/Header/Header.jsx'
 import About from './components/About/About.jsx'
 import Guide from './components/Guide/Guide.jsx'
@@ -14,6 +15,7 @@ import Footer from './components/Footer/Footer.jsx'
 import css from './app.css'
 render(
   <div>
+    <Navbar />
     <Header />
     <About />
     <Guide />

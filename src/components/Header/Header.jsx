@@ -13,8 +13,8 @@ var Header = React.createClass({
   render: function() {
     return <div className={css.edge}><Parallax bgImage={bgImage} strength={400}>
       <div className={css.Header}>
-        <h1>Engleinvestor</h1>
-        <h2>Der de gode selskapene møter nødvendig kapital </h2>
+        <h1>Axkapital</h1>
+        <h2>Effektiv eksponering overfor kapitalmarkedet for bedrifter </h2>
           <button className={css.readMore} value="#about" onClick={this.scroll}>Les mer</button>
           <button className={css.contactUs} value="#contact" onClick={this.scroll}>Kontakt oss</button>
       </div>
