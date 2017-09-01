@@ -12,16 +12,21 @@ import Team from './components/Team/Team.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Disclaimer from './components/Disclaimer/Disclaimer.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import Tjenester from './components/Tjenester/Tjenester.jsx'
+import OnlineQA from './components/OnlineQA/OnlineQA.jsx'
+import Hurtigevent from './components/Hurtigevent/Hurtigevent.jsx'
+import Irpakke from './components/Irpakke/Irpakke.jsx'
 import css from './app.css'
 render(
   <div>
     <Header />
     <About />
-    <Guide />
     <Investments />
+    <Tjenester />
+    <OnlineQA />
+    <Hurtigevent />
+    <Irpakke />
     <Submit />
-    <Partners />
-    <Team />
     <Contact />
     <Disclaimer />
     <Footer />

@@ -11,7 +11,8 @@ var Investments = React.createClass({
   render: function() {
     return <Parallax bgImage={bgImage} strength={300}>
     <div className={css.Investments}>
-      <h1>Der de gode selskapene møter nødvendig kapital</h1>
+      <h1>Selskapets eksisterende verdier og inntjeningspotensial må synliggjøres</h1>
+      <h1>Vi hjelper deg med nettopp dette</h1>
         {/*<span className="countUp">
           <CountUp start={0} end={0} duration={5} useEasing={true} />
         </span>
