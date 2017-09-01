@@ -9,5 +9,4 @@ var Navbar = React.createClass({
   }
 });
 
-
 module.exports = Navbar;

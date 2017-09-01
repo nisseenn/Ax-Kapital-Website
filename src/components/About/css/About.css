@@ -20,11 +20,28 @@
   text-align: center;
   font-weight: bold;
 }
-:local(.About > p){
+:local(.About > .firstText){
   font-size: 0.9rem;
   padding: 1rem 0;
   line-height: 1.3rem;
   max-width: 700px;
   text-align: center;
   display: inline-block;
+}
+:local(.About > .secondText){
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  line-height: 1.3rem;
+  max-width: 700px;
+  text-align: center;
+  display: none;
+}
+:local(.About > .buttonDown){
+  background-color: #EAF4FF;
+  padding: 0.01em 0;
+  border-radius: 100em;
+  display: inline-block;
+}
+:local(.About > .buttonDown:hover){
+cursor: pointer
 }

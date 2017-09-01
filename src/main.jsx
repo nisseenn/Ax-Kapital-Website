@@ -15,7 +15,6 @@ import Footer from './components/Footer/Footer.jsx'
 import css from './app.css'
 render(
   <div>
-    <Navbar />
     <Header />
     <About />
     <Guide />

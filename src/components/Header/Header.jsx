@@ -14,7 +14,7 @@ var Header = React.createClass({
     return <div className={css.edge}><Parallax bgImage={bgImage} strength={400}>
       <div className={css.Header}>
         <h1>Axkapital</h1>
-        <h2>Effektiv eksponering overfor kapitalmarkedet for bedrifter </h2>
+        <h2>Den mest effektive eksponeringen overfor kapitalmarkedet for bedrifter</h2>
           <button className={css.readMore} value="#about" onClick={this.scroll}>Les mer</button>
           <button className={css.contactUs} value="#contact" onClick={this.scroll}>Kontakt oss</button>
       </div>
