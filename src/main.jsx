@@ -26,9 +26,7 @@ render(
     <OnlineQA />
     <Hurtigevent />
     <Irpakke />
-    <Submit />
     <Contact />
-    <Disclaimer />
     <Footer />
   </div>,
   document.getElementById('react-view')

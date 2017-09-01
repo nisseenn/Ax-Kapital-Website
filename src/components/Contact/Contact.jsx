@@ -11,17 +11,11 @@ var Contact = React.createClass({
     return <div className={css.Contact} id="contact">
       <h1>Kontakt oss</h1>
           <div className={css.section}>
-            <h1>Spørsmål som investor</h1>
+            <h1>har du spørsmål?</h1>
               <div className={css.smallLine}></div><br />
             <p>obaid@entrahouse.com</p>
             <p>+47 960 45 651</p>
           </div>
-          <div className={css.section}>
-            <h1>Spørsmål som GrÜnder</h1>
-              <div className={css.smallLine}></div><br />
-            <p>info@entrahouse.com</p>
-            <p>+47 970 25 340</p>
-        </div>
         <div className={css.Facebook}>
           <h1>Du kan også finne oss her</h1>
           <a onClick={this.toFace}>
@@ -30,6 +24,5 @@ var Contact = React.createClass({
     </div>
   }
 });
-
 
 module.exports = Contact;

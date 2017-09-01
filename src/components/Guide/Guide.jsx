@@ -13,22 +13,22 @@ var Guide = React.createClass({
       <div className={css.smallLine}></div><br />
         <div className={css.step}>
           <img className={css.icon} src={tjuefire} />
-          <h2>2 måneder</h2>
+          <h2>Abonnement 2 mnd</h2>
 
         </div>
         <div className={css.step}>
           <img className={css.icon} src={tjueni} />
-          <h2>3 måneder</h2>
+          <h2>Abonnement 3 mnd</h2>
 
         </div>
         <div className={css.step}>
           <img className={css.icon} src={forti} />
-          <h2>6 måneder</h2>
+          <h2>Abonnement 6 mnd</h2>
 
         </div>
         <div className={css.step}>
           <img className={css.icon} src={otti} />
-          <h2>12 måneder</h2>
+          <h2>Abonnement 12 mnd,</h2>
 
         </div>
     </div>

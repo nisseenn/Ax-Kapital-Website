@@ -2,8 +2,9 @@ const React = require('react');
 const css = require('./css/Tjenester.css')
 import { PlusButton } from 'react-svg-buttons';
 import { CloseButton } from 'react-svg-buttons';
-
-
+import tjuefire from './img/q1.jpg'
+import tjueni from './img/q2.jpg'
+import otti from './img/q3.jpg'
 var Tjenester = React.createClass({
 
   getInitialState: function(){
@@ -22,10 +23,29 @@ var Tjenester = React.createClass({
   render: function() {
     var secondText = <p className={css.secondText}>Vi hjelper dere med å holde online presentasjon på våre plattformer  enten ved fremleggelse av års- og kvartalsregnskap, eller ved ulike temapresentasjoner av delvirksomheter, oppkjøpg og fusjoner etc. Med over 30.000 private- og profesjonelle investorer i medlemsmassen vil dere forbedre markedskunnskap om og forståelse for deres selskapets drift. Presentasjonen vil foregå på våre plattformer gjennom screencast, webcast eller audiocast. Vårt team vil på forhånd markedsføre presentasjonen, samt være tilgjengelig for under eventet for moderering.
     </p>;
+    var guidePrice = <div className={css.Guide} id="guide">
+      <h1>Pris finansiell høring</h1>
+      <div className={css.smallLine}></div><br />
+        <div className={css.step}>
+          <img className={css.icon} src={tjuefire} />
+          <h2>Pris per event presentasjon</h2>
+
+        </div>
+        <div className={css.step}>
+          <img className={css.icon} src={tjueni}/>
+          <h2>Pris abonnement  6 mnd</h2>
+
+        </div>
+        <div className={css.step}>
+          <img className={css.icon} src={otti}/>
+          <h2>Pris abonnement  12 mnd</h2>
+        </div>
+      </div>;
     var actionButton = <CloseButton />;
     if (!this.state.isButtonClicked){
       secondText = "";
       actionButton = <PlusButton />
+      guidePrice = "";
     }
     return <div className={css.AboutDropDown} id="about">
       <h1>Våre tjenester</h1>
@@ -33,6 +53,8 @@ var Tjenester = React.createClass({
 </h1>
     <br />
       {secondText}
+      <br />
+      {guidePrice}
       <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />
