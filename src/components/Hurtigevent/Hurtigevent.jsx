@@ -3,6 +3,7 @@ const css = require('./css/Hurtigevent.css')
 import { PlusButton } from 'react-svg-buttons';
 import { CloseButton } from 'react-svg-buttons';
 import tjuefire from './img/yo.jpg'
+import MediaQuery from 'react-responsive';
 
 var Hurtigevent = React.createClass({
 
@@ -30,17 +31,29 @@ Gjennom denne tjenesten får dere viktig informasjon ut offentlig til kapitalmar
         </div>
       </div>;
     var actionButton = <CloseButton />;
+
+    var Prices = <div className={css.Prices}>
+      <h1>Pris per event</h1>
+            <p>Pris per event (eks mva): 9.999,-</p>
+          </div>;
+
     if (!this.state.isButtonClicked){
       secondText = "";
       actionButton = <PlusButton />
       guidePic = "";
+      Prices="";
     }
     return <div className={css.AboutDropDown} id="about">
       <h1 className={css.firstText}>Hurtigevent</h1>
     <br />
       {secondText}
       <br />
+      <MediaQuery query='(min-device-width: 1224px)'>
       {guidePic}
+    </MediaQuery>
+    <MediaQuery query='(max-device-width: 1224px)'>
+      {Prices}
+    </MediaQuery>
     <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />

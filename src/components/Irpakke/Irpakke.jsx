@@ -3,6 +3,7 @@ const css = require('./css/Irpakke.css')
 import { PlusButton } from 'react-svg-buttons';
 import { CloseButton } from 'react-svg-buttons';
 import Guide from '../Guide/Guide.jsx'
+import MediaQuery from 'react-responsive';
 
 var Irpakke = React.createClass({
 
@@ -30,12 +31,20 @@ var secondsecondText = <p className={css.secondsecondText}>
 <li>Opptil 2 Hurtigevents i måneden</li>
 </p>
     var guideOn = <Guide />;
+    var Prices = <div className={css.Prices}>
+      <h1>priser ir-pakke</h1>
+            <p>Abonnement, 2 mnd: 24.995,-</p>
+            <p>Abonnement, 3 mnd: 29.995,-</p>
+            <p>Abonnement, 6 mnd: 49.995,-</p>
+            <p>Abonnement, 12 mnd: 80.000,-</p>
+          </div>;
     var actionButton = <CloseButton />;
     if (!this.state.isButtonClicked){
       secondText = "";
       secondsecondText = "";
       guideOn ="";
       actionButton = <PlusButton />
+      Prices ="";
     }
     return <div className={css.AboutDropDown} id="about">
       <h1 className={css.firstText}>IR-Pakke</h1>
@@ -43,7 +52,12 @@ var secondsecondText = <p className={css.secondsecondText}>
       {secondText}
       <br />
       {secondsecondText}
+      <MediaQuery query='(min-device-width: 1224px)'>
       {guideOn}
+      </MediaQuery>
+      <MediaQuery query='(max-device-width: 1224px)'>
+        {Prices}
+      </MediaQuery>
       <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />

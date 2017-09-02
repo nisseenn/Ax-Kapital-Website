@@ -1,5 +1,6 @@
 const React = require('react');
 const css = require('./css/Guide.css')
+import MediaQuery from 'react-responsive'
 
 import tjuefire from './img/bro.jpg'
 import tjueni from './img/bro1.jpg'
