@@ -26,6 +26,7 @@ render(
     <OnlineQA />
     <Hurtigevent />
     <Irpakke />
+    <Partners />
     <Contact />
     <Footer />
   </div>,

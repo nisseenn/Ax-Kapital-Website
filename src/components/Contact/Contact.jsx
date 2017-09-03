@@ -13,7 +13,7 @@ var Contact = React.createClass({
           <div className={css.section}>
             <h1>har du spørsmål?</h1>
               <div className={css.smallLine}></div><br />
-            <p>obaid@entrahouse.com</p>
+            <p>obaid@axkapital.com</p>
             <p>+47 960 45 651</p>
           </div>
         <div className={css.Facebook}>

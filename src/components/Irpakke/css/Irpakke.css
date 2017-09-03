@@ -1,7 +1,7 @@
 :local(.About){
   text-align: center;
   background-size: cover;
-  background-color: #5DD378;
+  background-color: #7FB0FF;
   padding: 1rem 3rem;
   position: relative;
   min-height: 8rem;
@@ -9,7 +9,7 @@
 }
 :local(.AboutDropDown){
   text-align: center;
-  background-color: #5DD378;
+  background-color: #7FB0FF;
   padding: 1rem 3rem;
   position: relative;
   min-height: 8rem;
@@ -86,7 +86,7 @@
   display: none;
 }
 :local(.About > .buttonDown){
-  background-color: #5DD378;
+  background-color: #7FB0FF;
   padding: 0.01em 0;
   border-radius: 100em;
   display: inline-block;
@@ -95,7 +95,7 @@
 cursor: pointer
 }
 :local(.AboutDropDown > .buttonDown){
-  background-color: #5DD378;
+  background-color: #7FB0FF;
   padding: 0.01em 0;
   border-radius: 100em;
   display: inline-block;

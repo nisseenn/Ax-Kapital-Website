@@ -1,7 +1,7 @@
 :local(.Guide){
   text-align: center;
   background-size: cover;
-  background-color: #5DD378;
+  background-color: #7FB0FF;
   padding: 2.6em 0 2.6em 0;
 }
 :local(.Guide > h1){
