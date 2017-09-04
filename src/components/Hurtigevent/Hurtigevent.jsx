@@ -31,7 +31,7 @@ Gjennom denne tjenesten får dere viktig informasjon ut offentlig til kapitalmar
         </div>
       </div>;
     var actionButton = <CloseButton />;
-
+    var readMore = <p></p>;
     var Prices = <div className={css.Prices}>
       <h1>Pris per event</h1>
             <p>Pris per event (eks mva): 9.999,-</p>
@@ -42,6 +42,7 @@ Gjennom denne tjenesten får dere viktig informasjon ut offentlig til kapitalmar
       actionButton = <PlusButton />
       guidePic = "";
       Prices="";
+      readMore="Les mer";
     }
     return <div className={css.AboutDropDown} id="about">
       <h1 className={css.firstText}>Hurtigevent</h1>
@@ -54,6 +55,8 @@ Gjennom denne tjenesten får dere viktig informasjon ut offentlig til kapitalmar
     <MediaQuery query='(max-device-width: 1224px)'>
       {Prices}
     </MediaQuery>
+    <br />
+    {readMore}
     <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />

@@ -22,8 +22,9 @@ var Tjenester = React.createClass({
   },
 
   render: function() {
-    var secondText = <p className={css.secondText}>Vi hjelper dere med å holde online presentasjon på våre plattformer  enten ved fremleggelse av års- og kvartalsregnskap, eller ved ulike temapresentasjoner av delvirksomheter, oppkjøpg og fusjoner etc. Med over 30.000 private- og profesjonelle investorer i medlemsmassen vil dere forbedre markedskunnskap om og forståelse for deres selskapets drift. Presentasjonen vil foregå på våre plattformer gjennom screencast, webcast eller audiocast. Vårt team vil på forhånd markedsføre presentasjonen, samt være tilgjengelig for under eventet for moderering.
+    var secondText = <p className={css.secondText}>Vi hjelper dere med å holde online presentasjon på våre plattformer  enten ved fremleggelse av års- og kvartalsregnskap, eller ved ulike temapresentasjoner av delvirksomheter, oppkjøp og fusjoner etc. Med over 30.000 private- og profesjonelle investorer i medlemsmassen vil dere forbedre markedskunnskap om og forståelse for deres selskapets drift. Presentasjonen vil foregå på våre plattformer gjennom screencast, webcast eller audiocast. Vårt team vil på forhånd markedsføre presentasjonen, samt være tilgjengelig for under eventet for moderering.
     </p>;
+    var readMore = <p></p>;
     var guidePrice = <div className={css.Guide} id="guide">
       <h1>Priser finansiell høring</h1>
       <div className={css.smallLine}></div><br />
@@ -31,7 +32,7 @@ var Tjenester = React.createClass({
           <img className={css.icon} src={tjuefire} />
           <h2>Pris per event presentasjon</h2>
 
-        </div>
+        </div>;
         <div className={css.step}>
           <img className={css.icon} src={tjueni}/>
           <h2>Pris abonnement  6 mnd</h2>
@@ -56,6 +57,7 @@ var Tjenester = React.createClass({
       actionButton = <PlusButton />
       guidePrice = "";
       Prices = "";
+      readMore="Les mer"
     }
     return <div className={css.AboutDropDown} id="about">
       <h1>Våre tjenester</h1>
@@ -70,6 +72,8 @@ var Tjenester = React.createClass({
     <MediaQuery query='(max-device-width: 1224px)'>
       {Prices}
     </MediaQuery>
+      <br />
+      {readMore}
       <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />

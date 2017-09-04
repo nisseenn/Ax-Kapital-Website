@@ -4,7 +4,6 @@ import { Parallax } from 'react-parallax'
 import bgImage from './img/hand3.jpg'
 import PartnerOne from './img/aksjeforum.png'
 import PartnerTwo from './img/grunderG.png'
-import PartnerThree from './img/seedforum.png'
 const css = require('./css/Partners.css')
 
 var Partners = React.createClass({
@@ -14,9 +13,7 @@ var Partners = React.createClass({
   toGrunder: function() {
       window.open('https://www.facebook.com/gkhoved/');
     },
-    toSeedforum: function() {
-      window.open('http://www.seedforum.org/');
-    },
+
   render: function() {
     return <Parallax bgImage={bgImage} strength={400}>
       <div className={css.Partners}>
@@ -24,7 +21,6 @@ var Partners = React.createClass({
           <div className={css.logos}>
             <img onClick={this.toAksjeforum} className={css.pictures} src={PartnerOne} />
             <img onClick={this.toGrunder} className={css.pictureTwo} src={PartnerTwo} />
-            <img onClick={this.toSeedforum} className={css.pictureThree} src={PartnerThree} />
           </div>
       </div>
     </Parallax>

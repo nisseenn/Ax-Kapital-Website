@@ -31,6 +31,7 @@ var secondsecondText = <p className={css.secondsecondText}>
 <li>Opptil 2 Hurtigevents i måneden</li>
 </p>
     var guideOn = <Guide />;
+    var readMore = <p></p>;
     var Prices = <div className={css.Prices}>
       <h1>priser ir-pakke</h1>
             <p>Abonnement, 2 mnd: 24.995,-</p>
@@ -45,6 +46,7 @@ var secondsecondText = <p className={css.secondsecondText}>
       guideOn ="";
       actionButton = <PlusButton />
       Prices ="";
+      readMore="Les mer"
     }
     return <div className={css.AboutDropDown} id="about">
       <h1 className={css.firstText}>IR-Pakke</h1>
@@ -58,6 +60,8 @@ var secondsecondText = <p className={css.secondsecondText}>
       <MediaQuery query='(max-device-width: 1224px)'>
         {Prices}
       </MediaQuery>
+      <br />
+      {readMore}
       <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />

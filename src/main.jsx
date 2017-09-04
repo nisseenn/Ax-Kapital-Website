@@ -28,7 +28,6 @@ render(
     <Irpakke />
     <Partners />
     <Contact />
-    <Footer />
   </div>,
   document.getElementById('react-view')
 )

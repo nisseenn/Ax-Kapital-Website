@@ -48,13 +48,14 @@ var OnlineQA = React.createClass({
               <p>Pris abonnement  6 mnd (eks): 44.995,-</p>
               <p>Pris abonnement  12 mnd (eks): 99.995,-</p>
             </div>;
-
+    var readMore = <p></p>;
     var actionButton = <CloseButton />;
     if (!this.state.isButtonClicked){
       secondText = "";
       actionButton = <PlusButton />
       guideCircle = "";
       Prices = "";
+      readMore="Les mer"
     }
     return <div className={css.AboutDropDown} id="about">
       <h1 className={css.firstText}>Online Q&A</h1>
@@ -67,6 +68,8 @@ var OnlineQA = React.createClass({
       <MediaQuery query='(max-device-width: 1224px)'>
         {Prices}
       </MediaQuery>
+      <br />
+      {readMore}
       <br />
       <button className={css.buttonDown} onClick={this.handleOnClick}>
          <CloseButton className={this.state.isButtonClicked ? css.visible : css.hidden} />
