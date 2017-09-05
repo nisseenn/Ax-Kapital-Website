@@ -60,7 +60,7 @@ var Tjenester = React.createClass({
       readMore="Les mer"
     }
     return <div className={css.AboutDropDown} id="about">
-      <h1>Våre tjenester</h1>
+      <h1>Løsning og priser</h1>
       <h1 className={css.firstText}>Finansiell høring foran et stort publikum
 </h1>
     <br />
