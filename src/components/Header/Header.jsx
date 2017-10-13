@@ -2,13 +2,14 @@ const React = require('react');
 
 const css = require('./css/Header.css')
 
-var Header = React.createClass({
-  render: function() {
-    return <div className={css.Header}>
-
-      </div>
+class Header extends React.component{
+  render(){
+    return(
+    <h1>h</h1>
+    );
   }
-});
 
+}
+ReactDOM.render(
 
-module.exports = Header;
+);
