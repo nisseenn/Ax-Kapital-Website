@@ -1,25 +1,12 @@
 const React = require('react');
 
-import { Parallax } from 'react-parallax'
-import bgImage from './img/barcode_night.jpg'
-import jump from 'jump.js'
-import About from '../About/About.jsx'
 const css = require('./css/Header.css')
 
 var Header = React.createClass({
-  scroll: function(e) {
-    jump(e.target.value);
-  },
   render: function() {
-    return <div className={css.edge}><Parallax bgImage={bgImage} strength={400}>
-      <div className={css.Header}>
-        <h1>Axkapital</h1>
-        <h2>Den mest effektive eksponeringen overfor kapitalmarkedet for bedrifter</h2>
-          <button className={css.readMore} value="#about" onClick={this.scroll}>Les mer</button>
-          <button className={css.contactUs} value="#contact" onClick={this.scroll}>Kontakt oss</button>
+    return <div className={css.Header}>
+
       </div>
-    </Parallax>
-  </div>
   }
 });
 

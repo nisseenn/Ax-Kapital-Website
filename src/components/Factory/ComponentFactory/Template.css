@@ -1,6 +1,0 @@
-:local(.{{ component_name }}){
-
-}
-:local(.{{ component_name }} > h1){
-  font-size: 4rem;
-}
